@@ -1,0 +1,42 @@
+/*ELEMENTS*/
+li{
+    float:left;
+    list-style:none;
+    position:relative;
+    background:#fff;
+    bottom:0px;
+    padding:5px 10px;
+    bottom:-1px;
+    border:1px solid #555;
+    cursor:pointer;
+}
+ul{
+    width:66%;
+    float:left;
+    border-bottom:1px solid #555;
+}
+
+
+/*IDs*/
+#balancesCanvas,
+#categoriesCanvas{
+    position:static;
+    clear:left;
+    padding-top:12px;
+}
+#categoriesCanvas{
+    display:none;
+}
+
+
+/*CLASSES*/
+.selected{
+    border-bottom:1px solid #fff;
+    cursor:default;
+}
+
+
+/*CONTEXTUAL*/
+li:nth-child(2){
+    border-left:0px solid #555;
+}
